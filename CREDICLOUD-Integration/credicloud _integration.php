@@ -10,7 +10,7 @@ Plugin URI:
 
 Description: Credicloud  API integration
 
-Author: CrediCloud Team
+Author: Ankita
 
 Version: 1.0
 
