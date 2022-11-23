@@ -3,7 +3,7 @@
  * Plugin Name: Lifemastery Course Members
  * Description: Description
  * Plugin URI: http://unaibamir.com
- * Author: Unaib Amir
+ * Author: Ankita
  * Author URI: http://unaibamir.com
  * Version: 1.0.0
  * License: GPL2
