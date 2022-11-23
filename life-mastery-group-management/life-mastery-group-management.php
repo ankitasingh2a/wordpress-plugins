@@ -16,7 +16,7 @@
  * Plugin URI:        https://unaibamir.com
  * Description:       This is a custom plugin which creates the option for LearnDash group leaders to manage their groups for drip lessons and other info. 
  * Version:           1.0.0
- * Author:            Unaib Amir
+ * Author:            Ankita
  * Author URI:        https://unaibamir.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
