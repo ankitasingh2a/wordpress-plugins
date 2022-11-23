@@ -1,0 +1,30 @@
+h5.widgettitle.group-title {
+	text-transform: initial;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+h5.widgettitle.group-title:focus {
+    outline: none;
+}
+h5.widgettitle.group-title:hover {
+	cursor: pointer;
+}
+
+h5.widgettitle.group-title.ui-accordion-header .ui-accordion-header-icon {
+    background: url(../images/sort_asc.png) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    transform: rotate(90deg);
+    top: -2px;
+    transition: all 0.3s;
+}
+h5.widgettitle.group-title.ui-accordion-header-active .ui-accordion-header-icon {
+    transform: rotate(180deg);
+    top: -3px;
+    left: -17px;
+}

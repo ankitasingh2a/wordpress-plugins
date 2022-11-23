@@ -1,0 +1,189 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.lm-group-manage-area li,
+.lesson_select li, 
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-left: 0 !important;
+   	font-size: 12px;
+}
+
+.lm-group-manage-area .select2-selection.select2-selection--multiple {
+   	
+    border: none;
+    background-color: rgba(0,0,0,.04);
+    -webkit-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.05);
+    color: rgba(0,0,0,.8);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+    max-width: 320px;
+    max-height: 60px;
+    
+}
+#buddypress.lm-group-manage-area .standard-form input[type=text] {
+    margin-bottom: 0;
+}
+.attendance-form .buddyboss-select-inner span, .selected-tab {
+    width: 550px;
+}
+.lm-group-manage-area #signup_form .select2-selection {
+    max-width: 550px;
+    max-height: 100%;
+    border: none;
+}
+#buddypress table.profile-fields.group-attendance tr th, 
+#buddypress table.profile-fields.group-attendance tr td {
+    border: 1px solid rgba(0,0,0,.05);
+    padding: 5px 5px !important;
+}
+.lm-group-manage-link {
+    position: relative;z-index: 9999; top: 15px; right: 15px;
+}
+.lm-group-details.tabs.ui-tabs.ui-widget-content {
+    padding: 0;
+    margin: 0;
+}
+.lm-group-details.tabs.ui-tabs.ui-widget-content ul.ui-tabs-nav li,
+.lm-group_member-details.tabs.ui-tabs.ui-widget-content ul.ui-tabs-nav li {
+    border-bottom: 1px solid #aaaaaa;
+}
+.lm-group-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content,
+.lm-group-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content {
+    padding: 0em 15px 1em 15px;
+}
+
+.user-groups-area h5.widgettitle.group-title {
+    background: none !important;
+    border: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top: 30px;
+    padding-top: 0;
+}
+h5.widgettitle.group-title.ui-accordion-header .ui-accordion-header-icon {
+    margin-top: 0;
+}
+.user-groups-area h5.widgettitle.group-title + .ui-accordion-content {
+    padding: 0;
+    border: 0;
+    margin-top: 5px;
+}
+#buddypress.user-groups-area table.profile-fields {
+    margin-bottom: 0;
+}
+
+.lm-message.success {
+    background-color: #6cdaa5;
+    color: #FFF;
+    padding: 4px 10px;
+    -webkit-animation-name: Disappear;
+    animation-name: Disappear;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    margin-bottom: 20px;
+}
+.lm-message.success p {
+    margin: 0;
+    color: #FFF;
+}
+
+.user-groups-area .ui-accordion-content a {
+    white-space: nowrap;
+    font-size: 90%;
+    /* font-family: none; */
+    color: #1f66c4;
+}
+
+.lm-group-details.tabs.ui-tabs.ui-widget-content ul.ui-tabs-nav li.ui-state-active a,
+.lm-group_member-details.tabs.ui-tabs.ui-widget-content ul.ui-tabs-nav li.ui-state-active a {
+    color: #000;
+}
+.lm-group-details.tabs.ui-tabs.ui-widget-content ul.ui-tabs-nav li.ui-state-active,
+.lm-group_member-details.tabs.ui-tabs.ui-widget-content ul.ui-tabs-nav li.ui-state-active {
+        -moz-box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    -webkit-box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+#buddypress table.profile-fields.group-attendance tr td:not(:first-child), #buddypress table.profile-fields.group-attendance tr th:not(:first-child) {
+    text-align: center;
+}
+
+.lm-group-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content li,
+.lm-group_member-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content li {
+    color: #515151;
+    font-size: 16px;
+}
+/*.lm-group_member-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content * {
+    font-size: 16px;
+    color: #515151;
+}*/
+
+#buddypress.user-groups-area h5.widgettitle.group-title + .ui-accordion-content table.entry-detail-view tr th {
+    width: 500px;
+    padding: 15px;
+    vertical-align: top;
+    border: 1px solid #aaaaaa;
+}
+#buddypress.user-groups-area h5.widgettitle.group-title + .ui-accordion-content table.entry-detail-view tr td {
+    padding: 15px;
+    vertical-align: top;
+    border: 1px solid #aaaaaa;
+}
+
+.lm-group_member-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content b,
+.lm-group_member-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content strong,
+.lm-group-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content b,
+.lm-group-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content strong {
+    font-size: inherit;
+}
+
+#buddypress .lm-group_member-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content table thead tr th,
+#buddypress .lm-group-details.tabs.ui-tabs.ui-widget-content .ui-tabs-panel.ui-widget-content table thead tr th {
+    font-weight: bold;
+    -moz-box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    -webkit-box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+}
+#buddypress table.profile-fields.group-attendance.group-schedule tr td,
+#buddypress table.profile-fields.group-attendance.group-schedule tr th {
+    text-align: left;
+}
+div#buddypress .lm-group-manage-content table thead tr th {
+    font-weight: bold;
+    -moz-box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    -webkit-box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+    box-shadow: inset 0 0 1000px rgba(0,0,0,.05);
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.user-groups-area h5.widgettitle.group-title + .ui-accordion-content .ui-tabs-panel p:empty {
+    display: none;
+}
+
+.lm-zoom-recording .dgv-embed-container .fluid-width-video-wrapper {
+    padding-top: 56.278% !important;
+}

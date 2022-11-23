@@ -1,0 +1,9 @@
+.mce-preview-object.mce-object-iframe {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+.mce-preview-object.mce-object-iframe iframe {
+    width: 100%;
+    min-height: 220px;
+}
