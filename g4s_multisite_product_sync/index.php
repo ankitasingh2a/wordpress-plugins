@@ -4,7 +4,7 @@
  * Plugin URI: 
  * Description: This plugin enables porting of data from the Source Website to the target site. The data can be of Universities and Products.
  * Version: 1.0
- * Author: UFC
+ * Author: Ankita
  * Author URI: 
  */
 
